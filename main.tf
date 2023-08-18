@@ -1,7 +1,7 @@
 provider "aws" {
 region = "ap-south-1"
-access_key = "AKIA33UP5WROWEEZZY4O"
-secret_key = "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"
+access_key = "AKIAU4LWHXEPQNT62WGU"
+secret_key = "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"
 }
 
 resource "aws_instance" "one" {
@@ -16,7 +16,7 @@ sudo -i
 yum install httpd -y
 systemctl start httpd
 chkconfig httpd on
-echo "hai all this is my app created by terraform infrastructurte by raham sir server-1" > /var/www/html/index.html
+echo "hai all this is my app created by terraform infrastructurte by chinni sir server-1" > /var/www/html/index.html
 EOF
   tags = {
     Name = "web-server-1"
@@ -89,7 +89,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "rahamshaikterra7gsywgdgdydjhdhydys7889900prodenvgshj"
+  bucket = "chinniterra7gsywgdgdydjhdhydys7889900prodenvgshj"
 }
 
 resource "aws_iam_user" "seven" {
