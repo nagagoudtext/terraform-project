@@ -89,7 +89,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "chinniterra7gsywgdgdydjhdhydys7889900prodenvgshj"
+  bucket = "jkddfsdsgdsacsasafasfsvsdv"
 }
 
 resource "aws_iam_user" "seven" {
