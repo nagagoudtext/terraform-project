@@ -7,7 +7,7 @@ secret_key = "lLqSKkC6C8cjZa+TRuHAQK9nFED7lplKsG6KYcr2"
 resource "aws_instance" "one" {
   ami             = "ami-0d951b011aa0b2c19"
   instance_type   = "t2.micro"
-  key_name        = "venkat123"
+  key_name        = "chinni0099"
   vpc_security_group_ids = [aws_security_group.five.id]
   availability_zone = "ap-south-1a"
   user_data       = <<EOF
